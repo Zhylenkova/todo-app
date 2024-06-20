@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+ 
+    <div class="container">
+        
+        <div class="todo-box">
+            <div class="todo-title-box">
+                <h2 class="todo-title">To-Do List</h2>
+                <i class='bx bx-list-plus'></i>
+            </div>
+            
+            <div class="input-row">
+
+                <input type="text" id="input-box" placeholder = "Enter a task">
+                <button onclick="addTask()">Add</button>
+                
+            </div>
+            <div class="list">
+                <ul id="list-container">
+ 
+                    <!-- <li class = "checked">Task 1</li>
+                    <li>Task 1</li>
+                    <li>Task 1</li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+   <script src="script.js"></script>
+
+</body>
+</html>
